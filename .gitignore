@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Flutter / Dart / Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Linux desktop ephemeral
+linux/flutter/ephemeral/
+
+# Windows desktop ephemeral
+windows/flutter/ephemeral/
+
+# Android build artifacts and local properties
+android/build/
+android/.gradle/
+android/captures/
+android/local.properties
+android/GeneratedPluginRegistrant.java
+android/.cxx/
+android/app/debug/
+android/app/profile/
+android/app/release/
+key.properties
+**/*.keystore
+**/*.jks
+
+# Logs, databases and local secrets
+*.env
+*.key
+*.enc
+*.lock.db
+*spacehere_vfs.json
+*spacehere_tdlib*
+flutter_web_*.log
